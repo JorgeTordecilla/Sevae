@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inicio {
+    height: 80px;
+    background: rgb(85, 110, 152);
+    background: linear-gradient(214deg, rgba(85, 110, 152, 1) 18%, rgba(0, 212, 255, 1) 90%);
+}
+
+.logo {
+    width: 39%;
+    display: block;
+    float: left;
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.nombre {
+    font-weight: bold;
+    display: block;
+    float: right;
+    margin-right: 80px;
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.navbar {
+    display: block;
+    float: right;
+    width: 60.5%;
+    line-height: 50px;
+}
+
+.navbar ul {
+    display: block;
+    float: right;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: all 300ms;
+}
+
+.navbar li a:hover {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#slider {
+    background-image: url(/assets/img/slider1.png);
+    padding: 300px 100px;
+    text-align: center;
+    position: relative;
+}
+
+#slider h1 {
+    color: #fff;
+    position: relative;
+}
+
+#slider:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
