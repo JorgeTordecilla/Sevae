@@ -5,7 +5,7 @@
 }
 
 .inicio {
-    height: 80px;
+    height: 90px;
     background: rgb(85, 110, 152);
     background: linear-gradient(214deg, rgba(85, 110, 152, 1) 18%, rgba(0, 212, 255, 1) 90%);
 }
@@ -107,8 +107,5 @@
         margin: 0.5em;
         margin-left: 1.5em;
         font-size: 0.85rem;
-    }
-    #slider {
-        margin-top: -1em;
     }
 }
