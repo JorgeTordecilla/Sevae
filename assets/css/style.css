@@ -70,14 +70,23 @@
 
 #slider {
     background-image: url(../img/slider1.png);
-    padding: 300px 100px;
+    /*padding: 300px 100px;*/
+    width: 100vw;
+    height: 89vh;
     text-align: center;
     position: relative;
+    background-repeat: no-repeat;
 }
 
-#slider h1 {
+.textoCentrado h1 {
     color: #fff;
     position: relative;
+    float: left;
+    margin-top: 20%;
+}
+
+.textoCentrado h1 i {
+    color: rgb(60, 201, 194);
 }
 
 #slider:before {
