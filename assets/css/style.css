@@ -11,7 +11,7 @@
 }
 
 .logo {
-    width: 38%;
+    width: 48%;
     display: block;
     float: left;
 }
@@ -27,7 +27,7 @@
     font-weight: bold;
     display: block;
     float: right;
-    margin-right: 15%;
+    margin-right: 20%;
     color: black;
     text-shadow: 0px 0px 1px gray;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
 .navbar {
     display: block;
     float: right;
-    width: 60.5%;
+    width: 50%;
     line-height: 2.5em;
 }
 
@@ -58,7 +58,7 @@
     text-decoration: none;
     margin: 1em;
     margin-left: 2em;
-    font-size: 1rem;
+    font-size: 0.9rem;
     transition: all 300ms;
 }
 
@@ -69,12 +69,11 @@
 
 #slider {
     background-image: url(../img/slider1.png);
-    /*padding: 300px 100px;*/
+    margin-top: -0.18em;
     width: 100vw;
     height: 89vh;
     text-align: center;
     position: relative;
-    background-repeat: no-repeat;
 }
 
 .textoCentrado h1 {
@@ -98,12 +97,12 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.clearFix {
+    clear: both;
+    float: none;
+}
+
 @media screen and (max-width: 1460px) and (min-width: 1160px) {
-    .nombre {
-        margin-right: 0%;
-        line-height: 7em;
-        font-size: 0.8em;
-    }
     .navbar li a {
         margin: 0.5em;
         margin-left: 1.5em;
