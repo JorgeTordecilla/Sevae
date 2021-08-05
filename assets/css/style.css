@@ -68,7 +68,7 @@
 }
 
 #slider {
-    background-image: url(../img/slider1.png);
+    background: url(../img/slider1.png) no-repeat;
     margin-top: -5px;
     width: 100vw;
     height: 89vh;
@@ -109,6 +109,6 @@
         font-size: 0.85rem;
     }
     #slider {
-        margin-top: -7px;
+        margin-top: -1em;
     }
 }
