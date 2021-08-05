@@ -98,3 +98,16 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media (min-width: 1200px) {
+    .nombre {
+        font-size: 0.75em;
+        /* 19px */
+    }
+    .navbar li a {
+        margin: 0.5em;
+        margin-left: 1.5em;
+        font-size: 0.9rem;
+        transition: all 300ms;
+    }
+}
