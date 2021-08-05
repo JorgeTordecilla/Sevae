@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 1460px) and (min-width: 1160px) {
     .nombre {
-        margin-right: 3%;
+        margin-right: 0%;
         line-height: 7em;
         font-size: 0.8em;
     }
