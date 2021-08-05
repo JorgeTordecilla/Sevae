@@ -101,8 +101,9 @@
 
 @media (min-width: 1200px) {
     .nombre {
-        font-size: 0.75em;
-        /* 19px */
+        margin-right: 10em;
+        line-height: 7em;
+        font-size: 0.65em;
     }
     .navbar li a {
         margin: 0.5em;
