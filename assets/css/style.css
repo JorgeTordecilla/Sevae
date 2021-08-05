@@ -64,8 +64,7 @@
 
 .navbar li a:hover {
     color: blueviolet;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.02rem;
 }
 
 #slider {
@@ -101,14 +100,13 @@
 
 @media screen and (max-width: 1460px) and (min-width: 1160px) {
     .nombre {
-        margin-right: 10%;
+        margin-right: 3%;
         line-height: 7em;
-        font-size: 0.65em;
+        font-size: 0.8em;
     }
     .navbar li a {
         margin: 0.5em;
         margin-left: 1.5em;
         font-size: 0.9rem;
-        transition: all 300ms;
     }
 }
