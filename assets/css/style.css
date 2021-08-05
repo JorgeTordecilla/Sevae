@@ -31,15 +31,15 @@
     color: black;
     text-shadow: 0px 0px 1px gray;
     text-transform: uppercase;
-    line-height: 80px;
-    font-size: 14px;
+    line-height: 6.5em;
+    font-size: 0.8rem;
 }
 
 .navbar {
     display: block;
     float: right;
     width: 60.5%;
-    line-height: 50px;
+    line-height: 2.5em;
 }
 
 .navbar ul {
@@ -49,23 +49,23 @@
 
 .navbar li {
     list-style: none;
-    margin: 15px;
-    margin-left: 30px;
+    margin: 1rem;
+    margin-left: 1.5rem;
 }
 
 .navbar li a {
     color: white;
     text-decoration: none;
-    margin: 15px;
-    margin-left: 30px;
-    font-size: 18px;
+    margin: 1em;
+    margin-left: 2em;
+    font-size: 1rem;
     transition: all 300ms;
 }
 
 .navbar li a:hover {
     color: blueviolet;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 #slider {
