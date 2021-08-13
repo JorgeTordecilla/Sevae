@@ -115,3 +115,12 @@
         background: url('../img/slider1-600w.png') no-repeat;
     }
 }
+
+@media (max-width: 480px) {
+    #descrip {
+        margin-top: 50%;
+    }
+    .slider {
+        background: url('../img/slider1-480w.png') no-repeat;
+    }
+}
