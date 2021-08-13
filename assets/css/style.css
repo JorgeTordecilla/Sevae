@@ -18,7 +18,7 @@
 }
 
 .slider {
-    background-image: url('../img/slider1.png');
+    background: url('../img/slider1.png') no-repeat;
     height: 89vh;
     text-align: center;
     position: relative;
