@@ -45,28 +45,108 @@
 
 
     <div class="bg-image slider  text-xl-center">
-        <div class="text-center ">
-            <h1 id="descrip">El <i> Sevae </i> es un sistema de gestión para el control de asistencia escolar automatizado para instituciones y escuelas
-        </div>
-    </div>
-    <div class="container-fluid" id="aboutInv">
-
-        <div class="row ">
-            <div class="col text-center align-content-between ">
-                <br>
-                <br>
-                <h1>Como funciona</h1>
-                <br>
-                <br>
-                <h2>
-                    El alumno tendrá su carnet escolar que será una tarjeta RFID donde estará grabado su Nuip (Número único de identificación personal), En la entrada de los colegios estará un sensor RFID configurado para lectura donde el alumno acercará su carnet para ser
-                    escaneado, este Nuip será registrado a través del aplicativo web en la base de datos de asistencia escolar y este a su vez enviará una notificación vía SMS al acudiente o padre del alumno notificándole la entrada y/o salida del colegio
-                    respectivamente, El Sevae tomara la asistencia escolar de entrada y salida por sus respectivos grados ahorrando tiempo en las aulas de clase, los coordinadores tendrán un reporte de los alumnos faltantes en la entrada y de los alumnos
-                    que no han salido de la institución de forma automática, Si el estudiante olvida su carnet o es extraviado, un docente podrá registrar al alumno manualmente desde el aplicativo web. En la coordinación de cada colegio tendrán el software
-                    y un módulo lector/grabador para leer, grabar y/o borrar la información de cada alumno en su respectivo carnet escolar.
-                </h2>
+        <div class="container">
+            <div class="text-center ">
+                <h1 id="descrip">El <i> Sevae </i> es un sistema de gestión para el control de asistencia escolar automatizado para instituciones y escuelas
             </div>
         </div>
+    </div>
+    <div id="aboutInv">
+        <div class="custom-shape-divider-top-1628879868">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+        </div>
+        <div class="container">
+            <div class="row ">
+
+                <div class="col-lg-4 text-center">
+                    <h2>Punto de Partida</h2>
+                    <p>
+                        <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Corrupcion" role="button" aria-expanded="false" aria-controls="Corrupcion Seguridad">
+                        Corrupción
+                    </a>
+                        <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Seguridad" role="button" aria-expanded="false" aria-controls="Seguridad">
+                        Seguridad
+                    </a>
+                        <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Deserciónescolar" role="button" aria-expanded="false" aria-controls="Deserciónescolar">
+                        Deserción escolar
+                    </a>
+                    </p>
+                    <div class="collapse" id="Corrupcion">
+                        <div class="card card-body">
+                            Control de estudiantes reales asistiendo a los colegios. Algunas directivas de colegios reportan más estudiantes de los que realmente están matriculados y asisten físicamente al colegio con el fin de obtener más presupuesto, a su vez las secretarias de
+                            educación hacen la misma practica con el fin de obtener más presupuesto para el municipio, de la misma forma la secretaria de educación departamental realiza la misma practica para obtener más presupuesto, con esta mala práctica
+                            se consigue inflar el presupuesto nacional para la educación y se desvían recursos hacia donde no se requieren. (Colegio, secretaria de educación municipal, secretaria de educación departamental, y ministerio de educación)
+
+                        </div>
+                    </div>
+
+                    <div class="collapse" id="Seguridad">
+                        <div class="card card-body">
+                            Notificación de entrada y de salida a los acudientes o padres de los alumnos. Muchos padres de familia no saben si sus hijos después de salir de la casa realmente entraron al colegio, o si cuando salen del colegio se dirigen hacia las casas. Existen múltiples
+                            factores que producen en los padres de familia una angustia por saber si su hijo esta donde debe estar, en el traslado de la casa al colegio y del colegio a la casa. Algunos de los factores son: accidentes de tránsito, atracos,
+                            secuestros, violaciones por parte de conductores de rutas escolares.
+                        </div>
+                    </div>
+                    <div class="collapse" id="Deserciónescolar">
+                        <div class="card card-body">
+                            Adquisición de datos y estadísticas para control y posible tratamiento de las causas de la deserción escolar. Muchas veces los padres están confiados que sus hijos salen de sus casas y están en los colegios, pero algunos estudiantes no ingresan debido
+                            a depresiones por problemas familiares, problemas personales, bullying en el colegio, malas amistades, trastornos de aprendizaje, esto genera deserción escolar, y pueden ser tratados por personal capacitado en el tema. (bullying,
+                            vicios, malas amistades, depresiones, trastornos de aprendizaje)
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <h2>Como funciona</h2>
+                    <h4>
+                        El alumno tendrá su carnet escolar que será una tarjeta RFID donde estará grabado su Nuip (Número único de identificación personal), En la entrada de los colegios estará un sensor RFID configurado para lectura donde el alumno acercará su carnet para ser
+                        escaneado, este Nuip será registrado a través del aplicativo web en la base de datos de asistencia escolar y este a su vez enviará una notificación vía SMS al acudiente o padre del alumno notificándole la entrada y/o salida del
+                        colegio respectivamente, El Sevae tomara la asistencia escolar de entrada y salida por sus respectivos grados ahorrando tiempo en las aulas de clase, los coordinadores tendrán un reporte de los alumnos faltantes en la entrada y
+                        de los alumnos que no han salido de la institución de forma automática, Si el estudiante olvida su carnet o es extraviado, un docente podrá registrar al alumno manualmente desde el aplicativo web. En la coordinación de cada colegio
+                        tendrán el software y un módulo lector/grabador para leer, grabar y/o borrar la información de cada alumno en su respectivo carnet escolar.
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1628880314">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore ipsam deserunt, eligendi numquam illo expedita non soluta. Natus totam delectus dolor molestiae expedita nisi et dolore, quos tempore magnam. Ipsum in, dolore esse temporibus
+            illum autem voluptate voluptates error enim a ducimus non? Deserunt, autem! Aliquam quis harum earum facilis architecto voluptate! Aliquam saepe possimus a modi maiores at. Cupiditate quod minima illo mollitia odit aperiam aspernatur eum,
+            delectus distinctio, consectetur iure et deleniti aliquam, laborum laboriosam exercitationem molestiae! Natus aperiam autem esse laborum itaque perferendis odit, nesciunt modi. Consectetur sapiente voluptatem reprehenderit provident a illo
+            reiciendis consequuntur temporibus cumque. Iure quaerat est ad, incidunt veniam molestiae distinctio enim non hic sed facere velit quidem atque esse. Eveniet, corrupti. Ullam recusandae eos, aperiam similique ut reiciendis temporibus voluptas
+            distinctio, perferendis soluta quidem earum autem illo, voluptates dolore laudantium. Inventore ratione voluptates quos, quis officiis ipsa at magnam nobis quisquam? Temporibus vitae quae beatae? At vitae earum harum fugiat ipsum quibusdam
+            repellat eius quia facere, accusamus ea temporibus reiciendis ab quas voluptas incidunt velit, commodi in aliquam error eligendi aspernatur. Aspernatur maiores dolorem accusamus dolores in officiis eum praesentium perspiciatis repudiandae
+            consequatur dolor recusandae odio magnam ab quod id inventore, repellat sint suscipit atque molestiae et, dolore ratione! Itaque, quaerat? Quidem natus ipsam autem perferendis corrupti tempore alias a minima quo adipisci vitae amet aspernatur
+            nihil dolorem, eaque soluta, illum libero odit explicabo error facere, atque eos. Eligendi, iste perferendis! Totam sit voluptatem nulla aliquam soluta quidem aspernatur quam laboriosam quaerat magni tenetur laborum amet eveniet animi, architecto
+            praesentium suscipit ab aliquid, expedita debitis! Possimus officia aliquam architecto ea doloremque. Reprehenderit rerum quibusdam iusto quis dolor eius officiis, facilis in quidem voluptates reiciendis nobis repudiandae perferendis exercitationem
+            voluptas, et neque similique eaque, incidunt voluptatem tenetur eos. Eligendi consectetur incidunt accusantium! Odit voluptatum corrupti eius tempore vero est enim cumque sapiente nulla voluptatibus sequi recusandae fugit omnis explicabo eaque
+            ratione delectus dolorem sint laudantium itaque amet nihil illo, provident nesciunt. Earum. Dicta modi quam, cum ad commodi odio culpa aliquam! Quibusdam, odit a tenetur cumque rem magnam tempore ipsam eos optio eaque provident amet dicta
+            molestiae, quos facilis sequi nostrum est! Quidem dolor numquam perspiciatis mollitia cumque, modi accusamus laborum. Obcaecati iusto saepe porro ipsam harum expedita nostrum reiciendis natus, quisquam necessitatibus neque voluptatum vero
+            maxime eligendi maiores quo pariatur voluptatibus? Vero mollitia necessitatibus impedit delectus, nam dolore, architecto aspernatur ullam esse ratione vel nesciunt minus dolores. Sapiente veniam ullam alias dignissimos natus eum id tempora
+            optio autem eos. Architecto, fugit. Illum, odit doloribus quisquam neque quasi itaque, dicta expedita, cum quos veritatis illo dolore. Odit amet, aut aspernatur nisi provident eaque nesciunt doloremque dicta quia temporibus similique rem officiis
+            nobis. Ex soluta magni explicabo modi iusto illum obcaecati magnam in reiciendis similique neque consectetur molestias earum harum quidem, voluptatum praesentium ipsum minus? Itaque adipisci, recusandae minus facilis neque quaerat qui! Ex
+            vero aperiam necessitatibus optio nulla modi quos eius recusandae illum sit, quaerat incidunt cumque maiores expedita saepe facere, porro quae distinctio quidem rem voluptas, tempore ea at maxime. Velit! Illo necessitatibus repudiandae libero.
+            Iste minima praesentium velit, doloribus modi ipsam, amet natus nobis et, unde neque soluta aut. Dolor, dolorem reiciendis suscipit vero veniam eligendi perferendis sequi itaque nobis? Velit quibusdam officiis, nihil eveniet, sapiente ducimus
+            labore architecto, quod voluptatum repudiandae tempore cupiditate laboriosam nostrum eaque voluptatem beatae. Sunt aliquam, eligendi quod inventore culpa obcaecati officia nisi voluptatibus ipsam. Sunt consequatur alias eligendi dolores voluptatibus
+            totam repellat veritatis mollitia nihil iusto. Laudantium labore distinctio, nisi dolorum cumque non sint laboriosam cum tempore dolor sed repellat iste rerum voluptatem omnis! Eos magni, at provident enim sequi tempore! Corrupti doloribus
+            sint ad consectetur! Ipsam qui nihil amet, quia adipisci placeat at saepe sint ipsum vero in voluptatibus quasi, officia eos optio? Autem ratione ipsam magni maiores porro facilis quod vero perferendis quam sed labore debitis cupiditate cumque
+            in ipsum, repellendus molestias! Amet in itaque quia. Molestias consequatur nihil atque non sit. Voluptatem porro quod assumenda. Recusandae possimus, architecto facere illo iste quae ipsum voluptatem, itaque similique fugit ipsam assumenda
+            vitae perferendis. Accusamus nam consectetur ad modi? Vel, voluptatibus nihil? Reprehenderit, quidem. Repellendus labore numquam quo voluptatum officiis, blanditiis dolorum fugit nulla animi qui accusantium. Molestias beatae odit, aliquid
+            architecto consequuntur commodi tempora, deserunt assumenda sunt, fuga eum cumque magnam autem perspiciatis. Dolore, voluptatem. Nisi magnam delectus fuga voluptate eum aliquid sit cum nesciunt quia aperiam reiciendis facilis dolorum sequi
+            facere, debitis at saepe voluptates voluptatem repellat incidunt soluta! Dolor, harum eius! Quis eligendi labore rerum consequuntur. Voluptates provident dignissimos velit ea est eius! Modi, alias! Ea ab id, dignissimos nobis veritatis dolores
+            quae laborum eveniet nulla tempora debitis unde molestiae obcaecati. Vero amet dolorem incidunt, harum necessitatibus quisquam facere aliquam maiores? Molestiae saepe neque excepturi, quis nemo perferendis officia ab libero facilis sequi culpa,
+            quibusdam, amet laborum? Tempora explicabo ab reprehenderit! Dolorum impedit, facere labore illum veritatis perferendis, quam officiis sunt numquam, culpa cupiditate voluptatibus recusandae natus. Tenetur tempora laudantium ratione. Tempore
+            temporibus sapiente suscipit non reprehenderit impedit quod tenetur voluptatem. Maxime deserunt, voluptatem eveniet id consequuntur libero odit a ducimus magnam voluptatibus, quibusdam doloremque minima dolores animi veritatis, possimus ipsa
+            voluptate accusantium autem pariatur. Dolor ab excepturi neque soluta repellat. Maiores illum excepturi enim dolor. Aliquid consectetur, voluptatibus cupiditate ipsa dolore laborum, veritatis, distinctio animi dolorum praesentium quam? Possimus
+            laudantium ex eveniet. Molestias quam corporis debitis temporibus quisquam, soluta accusamus!</h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>

@@ -49,6 +49,52 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+#aboutInv {
+    background: rgb(85, 152, 143);
+    background: linear-gradient(214deg, rgba(85, 152, 143, 0.7738445720084909) 44%, rgba(0, 255, 252, 0.8186624991793592) 90%);
+}
+
+.custom-shape-divider-top-1628879868 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1628879868 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 229px;
+}
+
+.custom-shape-divider-top-1628879868 .shape-fill {
+    fill: #A3CFE6;
+}
+
+.custom-shape-divider-bottom-1628880314 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1628880314 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 229px;
+}
+
+.custom-shape-divider-bottom-1628880314 .shape-fill {
+    fill: #A3CFE6;
+}
+
 @media (max-width: 605px) {
     .navbar-brand span {
         width: 1px;
