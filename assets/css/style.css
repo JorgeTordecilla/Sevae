@@ -118,7 +118,7 @@
 
 @media (max-width: 480px) {
     #descrip {
-        margin-top: 50%;
+        margin-top: 70%;
     }
     .slider {
         background: url('../img/slider1-480w.png') no-repeat;
