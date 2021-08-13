@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 .navbar-dark {
     background: linear-gradient(214deg, rgba(85, 110, 152, 1) 18%, rgba(0, 212, 255, 1) 90%);
 }
@@ -24,14 +28,14 @@
     position: relative;
 }
 
-.text-center h1 {
+#descrip {
     color: #fff;
     position: relative;
     float: left;
     margin-top: 20%;
 }
 
-.text-center h1 i {
+#descrip i {
     color: rgb(60, 201, 194);
 }
 
