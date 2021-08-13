@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                 <div class="navbar-nav text-center">
                     <a class="nav-item nav-link active " aria-current="page" href="#">Inicio</a>
-                    <a class=" nav-item nav-link " href="#aboutInv">Sobre la investigacion</a>
+                    <a class=" nav-item nav-link navbar-collapse " href="#aboutInv">Sobre la investigacion</a>
                     <a class="nav-item nav-link " href="#">Los CEO</a>
                     <a class="nav-item nav-link " href="#">Registrate</a>
                     <a class="nav-item nav-link " href="#">Contactanos</a>
@@ -61,11 +61,56 @@
         </div>
         <div class="container-fluid">
             <div class="row ">
-
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4">
                     <h2>Punto de Partida</h2>
+                    <div class="accordion" id="acordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="corrupcionHeading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#corrupcion" aria-expanded="true" aria-controls="corrupcion">
+                                    Corrupción
+                            </button>
+                            </h2>
+                            <div id="corrupcion" class="accordion-collapse collapse show" aria-labelledby="corrupcionHeading" data-bs-parent="#acordion">
+                                <div class="accordion-body">
+                                    <strong>Control de estudiantes reales asistiendo a los colegios.</strong> Algunas directivas de colegios reportan más estudiantes de los que realmente están matriculados y asisten físicamente al colegio con el fin de
+                                    obtener más presupuesto, a su vez las secretarias de educación hacen la misma practica con el fin de obtener más presupuesto para el municipio, de la misma forma la secretaria de educación departamental realiza la misma
+                                    practica para obtener más presupuesto, con esta mala práctica se consigue inflar el presupuesto nacional para la educación y se desvían recursos hacia donde no se requieren. (Colegio, secretaria de educación municipal,
+                                    secretaria de educación departamental, y ministerio de educación)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="seguridadHeading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Seguridad" aria-expanded="false" aria-controls="Seguridad">
+                                    Seguridad
+                            </button>
+                            </h2>
+                            <div id="Seguridad" class="accordion-collapse collapse" aria-labelledby="seguridadHeading" data-bs-parent="#acordion">
+                                <div class="accordion-body">
+                                    <strong>Notificación de entrada y de salida a los acudientes o padres de los alumnos.</strong> Padres de familia no saben si sus hijos después de salir de la casa realmente entraron al colegio, o si cuando salen del
+                                    colegio se dirigen hacia las casas. Existen múltiples factores que producen en los padres de familia una angustia por saber si su hijo esta donde debe estar, en el traslado de la casa al colegio y del colegio a la casa.
+                                    Algunos de los factores son: accidentes de tránsito, atracos, secuestros, violaciones por parte de conductores de rutas escolares.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="desercionheading">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#desercion" aria-expanded="false" aria-controls="desercion">
+                                    Deserción escolar
+                            </button>
+                            </h2>
+                            <div id="desercion" class="accordion-collapse collapse" aria-labelledby="desercionheading" data-bs-parent="#acordion">
+                                <div class="accordion-body">
+                                    <strong>                            Adquisición de datos y estadísticas para control y posible tratamiento de las causas de la deserción escolar.</strong> Muchas veces los padres están confiados que sus hijos salen
+                                    de sus casas y están en los colegios, pero algunos estudiantes no ingresan debido a depresiones por problemas familiares, problemas personales, bullying en el colegio, malas amistades, trastornos de aprendizaje, esto
+                                    genera deserción escolar, y pueden ser tratados por personal capacitado en el tema. (bullying, vicios, malas amistades, depresiones, trastornos de aprendizaje)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
                     <p>
-                        <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Corrupcion" role="button" aria-expanded="false" aria-controls="Corrupcion Seguridad">
+                        <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Corrupcion" role="button" aria-expanded="false" aria-controls="Corrupcion">
                         Corrupción
                     </a>
                         <a class="btn m-lg-2 btn-primary" data-bs-toggle="collapse" href="#Seguridad" role="button" aria-expanded="false" aria-controls="Seguridad">
@@ -97,9 +142,9 @@
                             a depresiones por problemas familiares, problemas personales, bullying en el colegio, malas amistades, trastornos de aprendizaje, esto genera deserción escolar, y pueden ser tratados por personal capacitado en el tema. (bullying,
                             vicios, malas amistades, depresiones, trastornos de aprendizaje)
                         </div>
-                    </div>
+                </div>-->
                 </div>
-                <div class="col-lg-8 text-center">
+                <div class="col-lg-7 text-center">
                     <h2>Como funciona</h2>
                     <h4>
                         El alumno tendrá su carnet escolar que será una tarjeta RFID donde estará grabado su Nuip (Número único de identificación personal), En la entrada de los colegios estará un sensor RFID configurado para lectura donde el alumno acercará su carnet para ser
@@ -120,6 +165,7 @@
     </div>
 
     <div class="container">
+
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore ipsam deserunt, eligendi numquam illo expedita non soluta. Natus totam delectus dolor molestiae expedita nisi et dolore, quos tempore magnam. Ipsum in, dolore esse temporibus
             illum autem voluptate voluptates error enim a ducimus non? Deserunt, autem! Aliquam quis harum earum facilis architecto voluptate! Aliquam saepe possimus a modi maiores at. Cupiditate quod minima illo mollitia odit aperiam aspernatur eum,
             delectus distinctio, consectetur iure et deleniti aliquam, laborum laboriosam exercitationem molestiae! Natus aperiam autem esse laborum itaque perferendis odit, nesciunt modi. Consectetur sapiente voluptatem reprehenderit provident a illo
