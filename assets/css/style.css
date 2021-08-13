@@ -46,3 +46,9 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 605px) {
+    .navbar-brand span {
+        width: 1px;
+    }
+}
