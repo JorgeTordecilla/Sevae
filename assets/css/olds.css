@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inicio {
+    height: 88px;
+    width: 100%;
+    background: rgb(85, 110, 152);
+    background: linear-gradient(214deg, rgba(85, 110, 152, 1) 18%, rgba(0, 212, 255, 1) 90%);
+}
+
+.logo {
+    width: 48%;
+    display: block;
+    float: left;
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.nombre {
+    font-weight: bold;
+    display: block;
+    float: right;
+    margin-right: 20%;
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+    text-transform: uppercase;
+    line-height: 6.5em;
+    font-size: 0.8rem;
+}
+
+.navbar {
+    display: block;
+    float: right;
+    width: 50%;
+    line-height: 2.5em;
+}
+
+.navbar ul {
+    display: block;
+    float: right;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 1rem;
+    margin-left: 1.5rem;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    margin-left: 2em;
+    font-size: 0.9rem;
+    transition: all 300ms;
+}
+
+.navbar li a:hover {
+    color: blueviolet;
+    font-size: 0.92rem;
+}
+
+#slider {
+    background: url(../img/slider1.png) no-repeat;
+    margin-top: -5px;
+    width: 100vw;
+    height: 89vh;
+    text-align: center;
+    position: relative;
+}
+
+.textoCentrado h1 {
+    color: #fff;
+    position: relative;
+    float: left;
+    margin-top: 20%;
+}
+
+.textoCentrado h1 i {
+    color: rgb(60, 201, 194);
+}
+
+#slider:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.clearFix {
+    clear: both;
+    float: none;
+}
+
+@media screen and (max-width: 1460px) and (min-width: 1160px) {
+    .navbar li a {
+        margin: 0.5em;
+        margin-left: 1.5em;
+        font-size: 0.85rem;
+    }
+    .navbar li a:hover {
+        color: blueviolet;
+        font-size: 0.89rem;
+    }
+}
