@@ -103,6 +103,7 @@
 
 .ceocard {
     margin: 10px auto 60px;
+    border-radius: 50px!important;
 }
 
 @media (max-width: 1500px) {
