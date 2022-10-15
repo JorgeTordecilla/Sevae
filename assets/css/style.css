@@ -50,8 +50,10 @@
 }
 
 #aboutInv {
-    background: rgb(85, 152, 143);
-    background: linear-gradient(214deg, rgba(85, 152, 143, 0.7738445720084909) 44%, rgba(0, 255, 252, 0.8186624991793592) 90%);
+    background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgb(26, 142, 188) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 142, 188, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 142, 188, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
 .custom-shape-divider-top-1628879868 {
@@ -97,8 +99,10 @@
 
 #Ceo {
     padding-top: 100px;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgb(26, 142, 188) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 142, 188, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 142, 188, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
 .ceocard {
@@ -137,4 +141,9 @@
     .ceocard {
         margin: 15px auto 15px;
     }
+}
+.infosevae{
+    margin:auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
